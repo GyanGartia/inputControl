@@ -67,6 +67,16 @@ public class first extends AppCompatActivity implements PopupMenu.OnMenuItemClic
 //    intent.putExtras(bundle);
 //    startActivity(intent);
 
+    //getting intent value:
+//    Bundle bundle = getIntent().getExtras();
+//    if (bundle ! = null) {
+//    String name = bundle.getString("name");
+//    String age = bundle.getString("age");
+//    TextView tvName = findViewById(R.id.tvName);
+//    TextView tvAge = findViewById(R.id.tvAge);
+//    tvName.setText(name);
+//    tvAge.setText(age);
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
