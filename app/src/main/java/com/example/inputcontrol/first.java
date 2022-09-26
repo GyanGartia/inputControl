@@ -57,6 +57,16 @@ public class first extends AppCompatActivity implements PopupMenu.OnMenuItemClic
 //        return super.onOptionsItemSelected(item);
 //    }
 
+    //passing intent value:
+//    String name = etName.getText().toString().trim();
+//    String age = etAge.getText().toString().trim();
+//    Bundle bundle = new Bundle();
+//    bundle.putString("name", name);
+//    bundle.putString("age", age);
+//    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+//    intent.putExtras(bundle);
+//    startActivity(intent);
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -127,7 +137,6 @@ public class first extends AppCompatActivity implements PopupMenu.OnMenuItemClic
     public void NightModeON(View view) {
         umm.setNightMode(UiModeManager.MODE_NIGHT_YES);
     }
-
     public void NightModeOFF(View view) {
         umm.setNightMode(UiModeManager.MODE_NIGHT_NO);
     }
